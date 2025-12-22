@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CTSTREAM — Festical</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- Tela de senha -->
+  <div id="gate" class="gate">
+    <div class="box">
+      <h2>Bem-vindo ao CTPLAY</h2>
+      <p>Insira a senha para acessar o catálogo de curtas:</p>
+      <input id="pwd" class="input" type="password" placeholder="Senha obrigatória">
+      <div id="err" class="error" style="display:none">Senha incorreta — tente novamente.</div>
+      <button id="btnEnter" class="btn">Entrar</button>
+      <p style="margin-top:12px;color:#6b7280;font-size:13px">Senha fornecida pela organização do Festical.</p>
+    </div>
+  </div>
+
+  
+  <div id="splash" class="splash">
+    <div class="splash-content">
+      <h1>CTPLAY</h1>
+      <div class="spinner"></div> 
+    </div>
+  </div>
+
+  
+  <header class="site-header">
+    <div class="logo">
+      <div class="dot">CT</div>
+      <span>PLAY</span>
+    </div>
+    <nav class="nav">
+      <input class="search" placeholder="Pesquisar...">
+      <div class="profile">👀</div>
+    </nav>
+  </header>
+
+  
+  <main>
+    
+    <section class="hero centered">
+      <div class="text-center">
+        <h1 class="title">CTPLAY — Curtas do Festical</h1>
+        <p class="subtitle">Um catálogo dos curtas produzidos pelos alunos do Festical. Divirta-se!</p>
+      </div>
+
+      <!-- Destaque grande centralizado -->
+      <div class="highlight">
+        <div class="highlight-card">
+          <h2>Filme em Destaque</h2>
+          <p>“O Primeiro Pulo” — um curta sobre coragem, amizade e o medo de errar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section class="rows">
+      <div class="row">
+        <h3>Todos os Curtas</h3>
+        <div class="scroller">
+
+          <!-- #OBS: Para adicionar mais filmes, copie um bloco <a>...</a> e edite a imagem -->
+          <a href="filme112025.html" class="card">
+            <div class="poster">
+              <img src="Cartaz festical.png" alt="Tardes Baguais">
+            </div>
+          </a>
+
+          <a href="filme122025.html" class="card">
+            <div class="poster">
+              <img src="IMG-20251013-WA0024.jpg" alt="Frankenstein">
+            </div>
+          </a>
+
+          <a href="filme132025.html" class="card">
+            <div class="poster">
+              <img src="Capa do Festical Turma 13.png" alt="Alice no País das Maravilhas">
+            </div>
+          </a>
+          <a href="filme142025.html" class="card">
+            <div class="poster">
+              <img src="Cartaz-Emma.png" alt="Emma">
+            </div>
+          </a>
+
+          <a href="filme212025.html" class="card">
+            <div class="poster">
+              <img src="GHpaix.jpg" alt="Paixão Segundo G.H">
+            </div>
+          </a>
+
+          <a href="filme222025.html" class="card">
+            <div class="poster">
+              <img src="Mrs Dalloway.png" alt="Mrs.Dalloway">
+            </div>
+          </a>
+
+          <a href="filme232025.html" class="card">
+            <div class="poster">
+              <img src="Cartaz O Retrato de Dorian Gray.png" alt="O Retrato de Dorian Gray">
+            </div>
+          </a>
+
+          <a href="filme312025.html" class="card">
+            <div class="poster">
+              <img src="Capa 32_page-0001.jpg" alt="E Então Sobrou Um - O Começo">
+            </div>
+          </a>
+
+          <a href="filme322025.html" class="card">
+            <div class="poster">
+              <img src="E então sobrou um_20251016_095713_0000 (1) (1)_page-0001.jpg" alt="E Então Sobrou Um - O Fim">
+            </div>
+          </a>
+        
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Feito para o Festical — CTFLIX</footer>
+
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pwdInput = document.getElementById("pwd");
   const err = document.getElementById("err");
 
-  const CORRECT_PWD = "2025CTBM44"; // #OBS: Atualize a senha aqui quando mudar
+  const CORRECT_PWD = "2026CTBM45"; // #OBS: Atualize a senha aqui quando mudar
   const acesso = sessionStorage.getItem("acessoCTFLIX");
 
   if (acesso === "true") {
@@ -44,4 +44,5 @@ document.addEventListener("DOMContentLoaded", () => {
       scroller.appendChild(cards[j]);
     }
   }
+
 });

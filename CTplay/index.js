@@ -44,5 +44,4 @@ document.addEventListener("DOMContentLoaded", () => {
       scroller.appendChild(cards[j]);
     }
   }
-
 });
